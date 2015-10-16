@@ -1,0 +1,25 @@
+{
+  "name": "rush_buddy_angular",
+  "version": "0.1.0",
+  "description": "Front end for testing and development of Rush Buddy. NRDD Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NRDD/RushBuddyAngular.git"
+  },
+  "keywords": [
+    "angular",
+    "rushbuddy",
+    "nrdd",
+    "frat"
+  ],
+  "author": "djdapz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NRDD/RushBuddyAngular/issues"
+  },
+  "homepage": "https://github.com/NRDD/RushBuddyAngular#readme"
+}

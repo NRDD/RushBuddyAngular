@@ -1,0 +1,26 @@
+{
+  "name": "rush_buddy_angular",
+  "description": "Front end for testing and development of Rush Buddy. NRDD Inc.",
+  "main": "index.js",
+  "authors": [
+    "djdapz"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "rushbuddy",
+    "nrdd",
+    "frat"
+  ],
+  "homepage": "https://github.com/NRDD/RushBuddyAngular",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ]
+}
