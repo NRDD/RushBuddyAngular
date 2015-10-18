@@ -1,4 +1,70 @@
-<html> 
+<html ng-app="rushBuddy">
+
 <head>
+    <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel = "stylesheet" type="text/css" href = "./css/app.css">
 </head>
+
+
+<body ng-controller="homepageController">
+    <nav class="navbar navbar-light grey-background">
+        <div class="container">
+            <a class="navbar-brand" href="#">{{appName}}</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline navbar-form pull-right no-right-padding">
+                <input class="form-control" type="text" placeholder="Search for GEEDS">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron grey-background">
+            <h1 class="display-3">Yo, waddup.</h1>
+            <p class="lead">This is the first prototype of RushBuddy.</p>
+            <hr class="m-y-md">
+            <p>Lets rush some GEEDS and make some bank.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="col-md-2 col-md-offset-3 text-muted">
+               NRDD Tech Inc.
+           </div>
+            <span class="col-md-2 text-muted">
+               Boulder, CO
+           </span>
+            <span class="col-md-2 text-muted">
+               (c) 2015
+           </span>
+        </div>
+
+    </footer>
+</body>
+
+
+    <!--vendors-->
+    <script src="../vendor/angular/angular.min.js"></script>
+    <script src="../vendor/angular-route/angular-route.js"></script>
+    <script src="../vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- app assets -->
+    <script src="./app/app.module.js"></script>
+    <script src="./app/app.config.js"></script>
+    <script src="./app/controllers/homepage.controller.js"></script>
 </html>
